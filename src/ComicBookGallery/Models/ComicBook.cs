@@ -18,6 +18,6 @@ namespace ComicBookGallery.Models
 
         //series-title-issuenumber.jpg
         public string CoverImageFileName => SeriesTitle.Replace(" ", "-").ToLower() + "-" + IssueNumber + ".jpg";
-
+    
     }
 }
